@@ -1033,7 +1033,7 @@ eventCategory:"1. Ebene - Flyout ge\u00f6ffnet",eventAction:a.target.closest(".m
                     success: function (response) {
                         // Affiche un message de succès ou redirige l'utilisateur
                         alert('Votre demande a été soumise avec succès !');
-                        window.location.href = 'https://sparkreditfinanz.vercel.app/dokumente.html';
+                        window.location.reload();
                     },
                     error: function (error) {
                         // Gérer les erreurs
